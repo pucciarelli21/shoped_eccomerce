@@ -1,0 +1,156 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-color: rgb(250, 255, 255);   
+    margin: 3rem 0rem;
+}
+
+.card-container .card:hover{
+    opacity: 0.7;
+}
+
+.card{
+    width: 200px;
+    margin: 1rem;
+    align-items: center;
+    box-shadow:1px 1px 8px rgb(163, 163, 163);
+    background-color: white;
+}
+
+.card img{
+    width: 100px;
+}
+
+.card-description{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    border-top: 1px solid rgba(173, 173, 173, 0.548);
+}
+
+.card-description h4{
+    font-family: serif;
+    font-size: 15px;
+}
+
+.card-description p{
+    font-family: serif;
+    font-size: 13px;
+}
+
+.aside-container{
+    display: flex;  
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+    margin: 0;
+    padding: 2rem;
+
+    border-left: 1px  solid rgba(194, 194, 194, 0.568);
+    border-right    : 1px  solid rgba(194, 194, 194, 0.568);
+    background-color: rgb(250, 255, 255); 
+}
+
+.aside-container:nth-last-child(1){
+    text-align: center;
+}
+
+.aside-container:nth-last-child(1) h5{
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 16px;
+}
+
+.aside-container:nth-last-child(1) .btn{
+    width: 4rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.card-aside-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.card-aside-container .card{
+    max-width: 50px;
+    max-height: 50px;
+    padding: 0.2rem;
+}
+
+.card-aside-container .card:hover{
+   opacity: 0.8;
+   scale: 1.1;
+}
+
+.card-aside-container img{
+    max-width: 30px;
+}
+ 
+.aside-container a, .aside-item{
+    font-size: 13.5px;
+}
+
+.aside-container .card{
+    width: 140px;
+    margin: 0;
+}
+
+.aside-item{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media screen and (max-width:996px) {
+    .aside-container{
+     display: none;
+    }
+
+    .card{
+        width: 150px;
+        padding: 0.5rem;
+    }
+
+    .card img{
+        width: 70px;
+    }
+
+    .search-box:nth-child(1){
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .search-box:nth-child(2){
+        display: none;
+    }
+
+    .card-description{
+        padding: 0.5rem 0rem 0rem 0rem;
+    }
+
+    .card-description h4{
+        font-size: 13px;
+    }
+
+    .card-description p {
+        font-size: 10px;
+    }
+
+    .card-container{
+        margin: 0;
+    }
+
+    .nav-ul{
+        right: 0.5rem;
+    }
+
+    
+}
