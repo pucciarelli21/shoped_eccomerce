@@ -64,11 +64,24 @@ nav{
 }
 
 footer{
+    position: absolute;
     display: flex;
     justify-content: center;
     padding: 2rem;
+    bottom: 0;
+    width: 100%;
 
     border-top: 1px solid rgb(194, 194, 194); 
     background-color: rgba(250, 215, 14, 0.699);   
 }
 
+@media screen and (max-width:996px) {
+    .search-box:nth-child(1){
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .search-box:nth-child(2){
+        display: none;
+    }
+}
