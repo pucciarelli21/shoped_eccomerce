@@ -35,10 +35,6 @@ nav{
     margin: 0.2rem;
 }
 
-.search-box:nth-child(1){
-    display: none;
-}
-
 .search{
     display: flex;
     justify-content: center;
@@ -73,13 +69,21 @@ footer{
     background-color: rgba(250, 215, 14, 0.699);   
 }
 
+.search-box-movile{
+    display: none;
+}
+
+.search-box-max{
+    display: block;
+}
+
 @media screen and (max-width:996px) {
-    .search-box:nth-child(1){
+    .search-box-movile{
         display: block;
         margin-top: 1rem;
     }
 
-    .search-box:nth-child(2){
+    .search-box-max{
         display: none;
     }
 }

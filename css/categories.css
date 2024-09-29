@@ -30,3 +30,38 @@
     left: 2rem;
     top: 6rem;
 }
+
+.recently-cat-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.recently-cat-list{
+    display: flex;
+}
+
+.recently-cat-list .list-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 0.3rem;
+}
+
+.recently-cat-list h6{
+    font-size: 12px;
+}
+
+
+@media screen and (max-width:996px) {
+    .search-box:nth-child(1){
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .search-box:nth-child(2){
+        display: none;
+    }
+}
