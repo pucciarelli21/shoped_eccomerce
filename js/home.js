@@ -1,9 +1,5 @@
 const CATALOGE_URL = 'https://pucciarelli21.github.io/testing2024/api/products.json';
 
-fetch('https://fakestoreapi.com/products')
-            .then(res=>res.json())
-            .then(json=>console.log(json))
-
 
 // Fetch
 async function fetchJson(url) {
@@ -14,14 +10,18 @@ async function fetchJson(url) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', async () =>{
 
-    let products = await fetchJson(CATALOGE_URL);
+document.addEventListener("DOMContentLoaded", async () =>{
+    const a = await fetchJson("https://pucciarelli21.github.io/testing2024/api/products.json");
 
-    for (let i = 0; i < products.length; i++) {
-        const element = products[i].Producto;
-        console.log(element)
-        
+    console.log(a)
+
+    for (let i = 0; i < a.vestimenta.length; i++) {
+        const element = a.vestimenta[i];
+        console.log(element.index)
     }
 
+    a.vestimenta.forEach(element => {
+        console.log(element)
+    });
 })
