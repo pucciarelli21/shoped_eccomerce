@@ -1,0 +1,53 @@
+body{
+    cursor: default;
+}
+
+.main-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-container{
+    margin-bottom: 2rem;
+}
+
+.list-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-cart svg:hover{
+    color: rgb(201, 22, 22);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+input{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.pay-container div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cart-empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}

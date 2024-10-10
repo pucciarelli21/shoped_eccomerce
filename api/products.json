@@ -1,0 +1,25 @@
+{
+    "Producto":{
+        "index":1,
+        "nombre":"Camisa",
+        "description":"Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+        "size": [
+            "S","M", "L" ,"XL"
+        ],
+        "img":[
+            "img/camisa1.jpg",
+            "img/camisa2.jpg",
+            "img/camisa3.jpg",
+            "img/camisa4.jpg",
+            "img/camisa5.jpg"
+        ],
+        "relatedProduct":{
+            "nombre":"Camisa",
+            "img":[
+                "img/camisaPlayera1.jpg"
+            ]
+        }
+    }
+
+    
+}

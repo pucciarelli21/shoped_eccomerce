@@ -83,3 +83,54 @@ wile(){
 }
 
 */
+
+
+const persona = {
+    name: [`Bob`, 'Marley'],
+    age: 20,
+    back: function(){
+        console.log(`${persona.name[0]} ${persona.name[2]} is ${this.age} years old`)
+    } 
+
+}
+
+persona.age = 22;
+
+console.log(`nueva edad ` + persona.age)
+
+
+const persona2 = {
+    name: [`Bob`],
+    age: 20,
+    saludar: function(){
+        return 'Hola ' + this.name
+    } 
+}
+
+const persona3 = {
+    name: ['Carlos'],
+    age: 20,
+    saludar: function(){
+        return 'Hola ' + this.name
+    } 
+}
+
+function crearPersona(name, age){
+    const obj = {};
+    obj.age = age;
+    obj.name = name;
+    obj.saludar = function(){
+        return 'Hola ' + this.name
+    };
+    return obj;
+}
+
+const Carlos = crearPersona('Carlos', 20)
+
+console.log(Carlos)
+
+const Maria = crearPersona("Maria", 24);
+console.log(Maria.saludar())
+
+const Jose = crearPersona("Jose", 25);
+console.log(Jose.saludar())

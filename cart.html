@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="links-box d-flex">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="img/726b5039-a6a2-4cfe-84a0-e13e2d5c6d2b.jpg" alt="">
+            </a>
+
+        </div>
+
+        <div class="notification-box">
+            <ul class="nav-ul">
+                <li class="nav-item">
+                    <button class="btn position-relative">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-archive"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                        <span class="position-absolute top-0 start-70 translate-middle badge rounded-pill bg-danger">
+                            3
+                        </span>
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                    <button class="btn position-relative">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                        <span class="position-absolute top-0 start-70 translate-middle badge rounded-pill bg-danger">
+                            3
+                        </span>
+                    </button>
+                </li>
+
+                <li class="nav-item">
+                    <a href="login.html" class="btn">
+                        <h6>Ingresar</h6>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--
+    <div class="cart-empty">
+
+                <h1 class="mt-5">Su carrito esta vacio</h1>
+                <button class="btn btn-primary mt-5">Volver al catalogo</button>
+        </div>
+    -->
+        
+
+        
+        <div class="main-container mt-4">
+
+            <div class="container cart-container">
+    
+                <ul class="list-group ">
+    
+    
+                    <li class="list-group-item d-flex list-cart">
+    
+                        <img style="width: 70px;" src="img/camisaBlanca1.jpg" alt="">
+    
+                        <div class="p-2">
+                            <h5>Camisa blanca</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reiciendis ipsam nesciunt
+                                incidunt non quo!</p>
+                        </div>
+    
+                        <div class="text-center">
+                            <div class="d-flex text-center">
+                                <button class="btn">
+                                    <svg style="color: rgb(0, 0, 0);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                      </svg>
+                                </button>
+                                <input type="number" name="" id="" value="1" min="0" max="99">
+                                <button class="btn">
+                                    <svg style="color: rgb(0, 0, 0);" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                                      </svg>
+                                </button>
+                            </div>
+                            <h5 class="mt-2">$ 1203</h5>
+                        </div>
+    
+                        <button type="button" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-trash" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+                                <path
+                                    d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+                            </svg>
+                        </button>
+    
+                    </li>
+    
+                    <li class="list-group-item d-flex list-cart">
+    
+                        <img style="width: 70px;" src="img/camisaBlanca1.jpg" alt="">
+    
+                        <div class="p-2">
+                            <h5>Camisa blanca</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reiciendis ipsam nesciunt
+                                incidunt non quo!</p>
+                        </div>
+    
+                        <div class="text-center">
+                            <div class="d-flex text-center">
+                                <button class="btn">
+                                    <svg style="color: rgb(0, 0, 0);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                      </svg>
+                                </button>
+                                <input type="number" name="" id="" value="1" min="0" max="99">
+                                <button class="btn">
+                                    <svg style="color: rgb(0, 0, 0);" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                                      </svg>
+                                </button>
+                            </div>
+                            <h5 class="mt-2">$ 1203</h5>
+                        </div>
+    
+                        <button type="button" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-trash" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+                                <path
+                                    d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+                            </svg>
+                        </button>
+    
+                    </li>
+    
+                    <li class="list-group-item d-flex list-cart">
+    
+                        <img style="width: 70px;" src="img/camisaBlanca1.jpg" alt="">
+    
+                        <div class="p-2">
+                            <h5>Camisa blanca</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reiciendis ipsam nesciunt
+                                incidunt non quo!</p>
+                        </div>
+    
+                        <div class="text-center">
+                            <div class="d-flex text-center">
+                                <button class="btn">
+                                    <svg style="color: rgb(0, 0, 0);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                                      </svg>
+                                </button>
+                                <input type="number" name="" id="" value="1" min="0" max="99">
+                                <button class="btn">
+                                    <svg style="color: rgb(0, 0, 0);" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                                      </svg>
+                                </button>
+                            </div>
+                            <h5 class="mt-2">$ 1203</h5>
+                        </div>
+    
+                        <button type="button" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-trash" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+                                <path
+                                    d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+                            </svg>
+                        </button>
+    
+                    </li>
+    
+                </ul>
+            </div>
+    
+            <hr>
+    
+            <div class="pay-container">
+    
+                <div>
+                    <p>Subtotal</p>
+                    <p>$ 222</p>
+                </div>
+    
+                <div>
+                    <p>Envio</p>
+                    <hp style="color: rgb(37, 155, 42);">Gratis</p>
+                </div>
+    
+                <div>
+                    <h5>Total</h5>
+                    <h5>$ 222</h5>
+                </div>
+            </div>
+    
+    
+            <div class="text-center mt-4">
+                <button type="button" class="w-50 btn btn-primary">Comprar</button>
+            </div>
+    
+    
+        </div>
+
+
+    <footer>
+        <div>
+            <p>© 2024 Copyright Gaston Pucciarelli. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+
+</html>
