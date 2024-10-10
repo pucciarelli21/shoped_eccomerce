@@ -22,10 +22,6 @@ body{
     color: rgb(201, 22, 22);
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-}
 
 ::-webkit-inner-spin-button{
     appearance: none;

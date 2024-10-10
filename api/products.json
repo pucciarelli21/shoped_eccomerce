@@ -1,25 +1,138 @@
 {
-    "Producto":{
-        "index":1,
-        "nombre":"Camisa",
-        "description":"Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
-        "size": [
-            "S","M", "L" ,"XL"
-        ],
-        "img":[
-            "img/camisa1.jpg",
-            "img/camisa2.jpg",
-            "img/camisa3.jpg",
-            "img/camisa4.jpg",
-            "img/camisa5.jpg"
-        ],
-        "relatedProduct":{
-            "nombre":"Camisa",
+    "vestimenta":[
+        {
+            "index":1,
+            "name":"Camisa elegante",
+            "description":"Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+            "size": [
+                "S","M", "L" ,"XL"
+            ],
             "img":[
-                "img/camisaPlayera1.jpg"
-            ]
+                "img/camisa1.jpg",
+                "img/camisa2.jpg",
+                "img/camisa3.jpg",
+                "img/camisa4.jpg",
+                "img/camisa5.jpg"
+            ],
+            "category":"shirt",
+            "soulCount":"$",
+            "price": 790,
+            "count":33,
+            "relatedProduct":{
+                "nombre":"Camisa playera",
+                "img":[
+                    "img/camisaPlayera1.jpg"
+                ]
+            }
+        },
+
+        {
+            "index":2,
+            "name":"Camisa elegante",
+            "description":"Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+            "size": [
+                "S","M", "L" ,"XL"
+            ],
+            "img":[
+                "img/camisa1.jpg",
+                "img/camisa2.jpg",
+                "img/camisa3.jpg",
+                "img/camisa4.jpg",
+                "img/camisa5.jpg"
+            ],
+            "category":"shirt",
+            "soulCount":"$",
+            "price": 790,
+            "count":33,
+            "relatedProduct":{
+                "nombre":"Camisa playera",
+                "img":[
+                    "img/camisaPlayera1.jpg"
+                ]
+            }
+        },
+
+        {
+            "index":3,
+            "name":"Camisa elegante",
+            "description":"Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+            "size": [
+                "S","M", "L" ,"XL"
+            ],
+            "img":[
+                "img/camisa1.jpg",
+                "img/camisa2.jpg",
+                "img/camisa3.jpg",
+                "img/camisa4.jpg",
+                "img/camisa5.jpg"
+            ],
+            "category":"shirt",
+            "soulCount":"$",
+            "price": 790,
+            "count":33,
+            "relatedProduct":{
+                "nombre":"Camisa playera",
+                "img":[
+                    "img/camisaPlayera1.jpg"
+                ]
+            }
+        },
+
+        {
+            "index":4,
+            "name":"Camisa elegante",
+            "description":"Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+            "size": [
+                "S","M", "L" ,"XL"
+            ],
+            "img":[
+                "img/camisa1.jpg",
+                "img/camisa2.jpg",
+                "img/camisa3.jpg",
+                "img/camisa4.jpg",
+                "img/camisa5.jpg"
+            ],
+            "category":"shirt",
+            "soulCount":"$",
+            "price": 790,
+            "count":33,
+            "relatedProduct":{
+                "nombre":"Camisa playera",
+                "img":[
+                    "img/camisaPlayera1.jpg"
+                ]
+            }
+        },
+
+        {
+            "index":5,
+            "name":"Camisa elegante",
+            "description":"Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+            "size": [
+                "S","M", "L" ,"XL"
+            ],
+            "img":[
+                "img/camisa1.jpg",
+                "img/camisa2.jpg",
+                "img/camisa3.jpg",
+                "img/camisa4.jpg",
+                "img/camisa5.jpg"
+            ],
+            "category":"shirt",
+            "soulCount":"$",
+            "price": 790,
+            "count":33,
+            "relatedProduct":{
+                "nombre":"Camisa playera",
+                "img":[
+                    "img/camisaPlayera1.jpg"
+                ]
+            }
         }
-    }
+
+
+
+    ]
 
     
 }
