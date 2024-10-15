@@ -10,6 +10,7 @@ html{
     justify-content: center; 
     background-color: rgb(250, 255, 255);   
     margin: 1rem 0rem 3rem 0rem;
+    padding: 1rem;
 }
 
 .center-container{
@@ -50,15 +51,15 @@ html{
 }
 
 .card img{
-    width: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .card-description{
     display: flex;
-    max-width: 150px;
-    max-height: max-content;
+    width: 150px;
     flex-direction: column;
-    padding: 0.7rem;
+    padding: 0.7rem 0.7rem 2rem 0.7rem;
     border-top: 1px solid rgba(173, 173, 173, 0.548);
 }
 
@@ -68,8 +69,12 @@ html{
 }
 
 .card-description p{
-    font-size: 13px;
+    font-size: 12px;
+   
     cursor:pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .main-container{
@@ -94,14 +99,15 @@ html{
     padding: 0.2rem;
 }
 
-.aside-container a:hover{
+.aside-container a:hover, .filters .btn:hover{
     opacity: 0.7;
     color: royalblue;
 }
 
 .aside-container:nth-child(1){
     border-right: 1px  solid rgba(194, 194, 194, 0.76);
-    padding: 2rem 2rem 0rem 0rem;
+    padding: 2rem 2rem 0rem 2rem;
+    width: 40vw;
 }
 
 .aside-container:nth-child(1) h5{
@@ -121,10 +127,9 @@ html{
 }
 
 .aside-container:nth-last-child(1) .btn{
-    width: 4rem;
     padding: 0.2rem 0.4rem;
     font-size: 10px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .card-aside-container{
@@ -136,8 +141,8 @@ html{
 }
 
 .card-aside-container .card{
-    max-width: 60px;
-    max-height: 60px;
+    max-width: 55px;
+    max-height: 55px;
     padding: 0.2rem;
     box-shadow: 0px 0px 5px rgba(194, 194, 194, 0.973);
 }
@@ -148,7 +153,8 @@ html{
 }
 
 .card-aside-container img{
-    max-width: 30px;
+    width: 55px;
+    height: 55px;
 }
  
 .aside-container a, .aside-item{
@@ -168,6 +174,12 @@ html{
 
 .filters a{
     cursor: pointer;
+}
+
+.filters .btn{
+    font-size: 13px;
+    margin: 0;
+    padding: 0.3rem 0rem;
 }
 
 .recentlyseen-list{

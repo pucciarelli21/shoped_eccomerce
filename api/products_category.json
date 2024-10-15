@@ -1,0 +1,818 @@
+[
+    {
+        "Accesorios": [
+            {
+                "index": 1,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 2,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 3,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 4,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 5,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            }
+        ],
+        "Autos": [
+            {
+                "index": 1,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 2,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 3,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 4,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 5,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            }
+        ],
+        "Electronica": [
+            {
+                "index": 1,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 2,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 3,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 4,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 5,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            }
+        ],
+        "Deporte": [
+            {
+                "index": 1,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 2,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 3,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 4,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 5,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            }
+        ],
+        "Juguetes": [
+            {
+                "index": 1,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 2,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 3,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 4,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 5,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            }
+        ],
+        "Herramientas": [
+            {
+                "index": 1,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 2,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 3,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 4,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 5,
+                "name": "Llave inglesa",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "img": [
+                    "img/camisa1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            }
+        ],
+        "vestimenta": [
+            {
+                "index": 31,
+                "name": "Camisa elegante",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano.",
+                "size": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "img": [
+                    "img/camisaBlanca1.jpg",
+                    "img/camisaBlanca2.jpg",
+                    "img/camisaBlanca3.jpg",
+                    "img/camisaBlanca4.jpg",
+                    "img/camisaBlanca5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 32,
+                "name": "Camisa elegante",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "size": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "img": [
+                    "img/camisaBlanca1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 33,
+                "name": "Camisa elegante",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "size": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "img": [
+                    "img/camisaBlanca1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 34,
+                "name": "Camisa elegante",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "size": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "img": [
+                    "img/camisaBlanca1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaPlayera1.jpg"
+                    ]
+                }
+            },
+            {
+                "index": 35,
+                "name": "Camisa elegante",
+                "description": "Camisa sólida para hombres, elegante camisa de manga corta con botones para actividades al aire libre en verano",
+                "size": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "img": [
+                    "img/camisaBlanca1.jpg",
+                    "img/camisa2.jpg",
+                    "img/camisa3.jpg",
+                    "img/camisa4.jpg",
+                    "img/camisa5.jpg"
+                ],
+                "category": "shirt",
+                "soulCount": "$",
+                "price": 790,
+                "count": 33,
+                "relatedProduct": {
+                    "nombre": "Camisa playera",
+                    "img": [
+                        "img/camisaNegra1.jpg"
+                    ]
+                }
+            }
+        ]
+    }
+]
