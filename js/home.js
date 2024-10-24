@@ -1,89 +1,85 @@
-const CATALOGE_URL = 'https://pucciarelli21.github.io/testing2024/api/products.json';
 
 
-// Fetch
-async function fetchJson(url) {
-    let crud = await fetch(url)
-    if (crud.ok) {
-        let users = await crud.json()
-        return users;
-    }
-}
 
 
-//Show all products
-function showProducts(array) {
+function searchProduct(array) {
 
-    document.getElementById("show_products").innerHTML = "";
-
-    array.forEach(product => {
-
-        document.getElementById("show_products").innerHTML += `
-                    <div class="card">
-                        <img src="${product.img[0]}" alt="">
-                        <div class="card-description">
-                            <h4>${product.name}</h4>
-                            <p>${product.description}</p>
-                        </div>
-                    </div>
-                    `
-    });
-}
-
-
-//Filter products for higer price
-function higherPrice(array){
-    let result = [];
-    for (let i = 0; i < array.length; i++) {
-        const element = array[i];
-
-        result.push(element)
-
-        result.sort( (a,b) =>{
-            if (a.price == b.price) {
-                return 0;
-            }
-            if(a.price > b.price){
-                return -1;
-            }
-            return 1;
-        });
-        
-    };
-    showProducts(result);
+    let buscador = document.getElementById("search_product").value.toLowerCase()
     
-};
+    
+
+    let result = []
 
 
-//Filter products for lower price
-function lowerPrice(array){
-    let result = [];
-    for (let i = 0; i < array.length; i++) {
-        const element = array[i];
+    array.forEach(element => {
+        const a = element.name.toLowerCase()
+        const b = element.index
+         result.push(a, b)
+    
+         if (buscador == undefined || nombreProducto.includes(buscador)) {
+            console.log(result)
+            showProducts(array)
+         }
+    });
 
-        result.push(element)
+}
 
-        result.sort( (a,b) =>{
-            if (a.price == b.price) {
-                return 0;
-            }
-            if(a.price < b.price){
-                return -1;
-            }
-            return 1;
+
+/*
+
+funcion buscar(api){
+
+    int buscardor
+    
+    para api buscar producto[
+        int productos = nombre de producto. convertir nombre en minuscula
+        si
+            buscador == productos. incluye ( buscador)
+        entonces
+        imprimir productos en pantalla
+    ]
+}
+
+
+document.addEventListener("keyup", e=>{
+
+        let result = []
+
+
+        products.forEach(element => {
+            result.push(element.name.toLowerCase(), element.index)
+    
         });
-        
-    };
-    showProducts(result);
-};
 
+        console.log(result)
+
+        if (result.includes(e.target.value.toLowerCase()) == true) {
+            document.getElementById("show_products").innerHTML = "";
+            console.log(products.filter(result))
+            
+            
+        }
+
+        
+      
+    });
+
+*/
 
 document.addEventListener("DOMContentLoaded", async () =>{
 
     const products = await fetchJson("api/products.json");
+
     const category = await fetchJson("api/products_category.json");
     
+    
     showProducts(products);
+
+    let a = document.querySelectorAll(".card")
+
+console.log(a)
+
+
 
     //Clear filters
     document.getElementById("clear_filter").addEventListener("click", () =>{
@@ -93,13 +89,37 @@ document.addEventListener("DOMContentLoaded", async () =>{
 
     document.getElementById("higher_price").addEventListener("click", () =>{
         document.getElementById("show_products").innerHTML = "";
-        higherPrice(products)
+        higherPrice(products);
     });
 
     document.getElementById("lower_price").addEventListener("click", () =>{
         document.getElementById("show_products").innerHTML = "";
-        lowerPrice(products)
+        lowerPrice(products);
     });
 
-})
+    
 
+});
+
+
+
+/*
+
+const searchImput = document.getElementById("search_product").value.toLocaleLowerCase()
+    const filteredProducts = array.filter(product => product.price);
+
+    document.addEventListener("keyup", () =>{
+        
+        array.forEach(element => {
+            const nameProduct = element.name.toLocaleLowerCase()
+        
+
+            if (nameProduct.includes(searchImput)) {
+                document.getElementById("show_products").innerHTML = "";
+                showProducts(array)
+            }
+
+        });
+    });
+
+*/

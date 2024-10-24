@@ -61,13 +61,6 @@
     </nav>
 
     <div class="main-container">
-        
-        <a href="index.html" class="nav-link back"></a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z"/>
-            </svg>
-            <p>Volver</p>
-        </a>
 
         <div class="search-box search-box-movile">
             <div class="search">
@@ -78,50 +71,23 @@
             </div>
         </div>
 
-    
-        <div class="list-container container">
-
-            <ul class="list-group">
-                <li class="list-group-item d-flex">
-                    <img src="https://cdn-images.farfetch-contents.com/18/76/15/30/18761530_40835219_300.jpg" alt="">
-                    <div class="description">
-                        <div>
-                            <h5>Autos</h5>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="unit-count">
-                            <span>99 unidades</span>
-                        </div>
-                    </div>
+        <div>
+            <ul class="navbar-nav filters">
+                <h5>Filtro</h5>
+                <li class="nav-item">
+                    <button class="nav-link btn" id="clear_filter">Limpiar filtros</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link btn" id="higher_price">Mayor precio</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link btn" id="lower_price">Menor precio</button>
                 </li>
             </ul>
+        </div>
+    
+        <div class="list-container container" id="show_products">
 
-            <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Play 5</h5>
-                    <small>43 Unidades</small>
-                  </div>
-                  <p class="mb-1">Some placeholder content in a paragraph.</p>
-                  <small>And some small print.</small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">List group item heading</h5>
-                    <small class="text-body-secondary">3 days ago</small>
-                  </div>
-                  <p class="mb-1">Some placeholder content in a paragraph.</p>
-                  <small class="text-body-secondary">And some muted small print.</small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">List group item heading</h5>
-                    <small class="text-body-secondary">3 days ago</small>
-                  </div>
-                  <p class="mb-1">Some placeholder content in a paragraph.</p>
-                  <small class="text-body-secondary">And some muted small print.</small>
-                </a>
-              </div>
         
         </div>
 
@@ -136,5 +102,6 @@
     </footer>
 </body>
 <script src="js/main.js"></script>
+<script src="js/products.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 </html>

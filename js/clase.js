@@ -82,7 +82,51 @@ caso1(array1, 2)
 wile(){
 }
 
-*/
+
+
+INVESTIGAR WORPRES
+
+comprender experiecnias emociones y motivaciones de los usuarios
+
+metodos
+
+entrevistas: explorar las preocupaciones y los sentimientos del usuario. usar preguntas abiertas 
+focus group
+observacion
+
+
+Cuantitativa 
+Encuentas preguntas estructuradas a un aplio grupo (google forms sunneymonkey)
+analisis de datos revision de metricas de usp existentes (google analitycs para identificar comportamientops de los usuarios)
+
+UX metodologias de diseño 
+    user journey mapping
+
+PROTOTIPADO Y PRUEBAS
+
+versiones interactivas de al interfaz quew permiten pruebas y evaluaciones del flujo de usuasrio
+
+Aplicaciones:
+    sketch
+    invision
+    adobe XD
+    Figma
+
+UI Metodologias de diseño
+
+investigacion de diseño
+
+Analizar la competencia y tendencia de diseño para entender las experiencias del usuario y establecer un punto de partida
+
+wireframes
+
+bocetos o maquetas de interfaz que muestren la disposicion de los elementos sin centrarse ene los detalles visuales.
+
+Diseño visual final
+
+Refinacion del diseño basandose en el feedback, implementando elementos visuales y asegurando la coherencia de estilo.
+
+
 
 
 const persona = {
@@ -134,3 +178,10 @@ console.log(Maria.saludar())
 
 const Jose = crearPersona("Jose", 25);
 console.log(Jose.saludar())
+
+
+
+
+*/
+
+
